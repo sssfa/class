@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CS106L: Standard C++ Programming</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <!-- <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+  <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+
+    <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid nav">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">CS106L</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="lectures.html">LECTURES</a></li>
+              <li><a href="assignments.html">ASSIGNMENTS</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">RESOURCES
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                   <li>
+                    <a href="handouts/000_Course_Information.pdf" target="_blank">Course Information</a>
+                  </li>
+                  <li>
+                    <a href="handouts/full_course_reader.pdf" target="_blank">Course Reader</a>
+                  </li>
+                  <li>
+                    <a href="handouts/006_Cpp_Reference.pdf" target="_blank">C++ Guide</a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.youtube.com/playlist?list=PLCgD3ws8aVdolCexlz8f3U-RROA0s5jWA" target="_blank">Videos</a>
+                  </li>
+                  <li>
+                    <a href="https://web.stanford.edu/dept/cs_edu/qt-creator/qt-creator.shtml" target="_blank">Setting up QT Creator </a>
+                  </li>
+
+                  <li>
+                    <a href="http://en.cppreference.com/w/" target="_blank">C++ Documentation</a>
+                  </li>
+<!--                   <li>
+                    <a href="handouts/001_Style_guide.pdf" target="_blank">Style Guide</a>
+                  </li> -->
+
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div class="container-fluid bg" >
+        <div class="site-header">
+          <h1 class="text-right site-title">CS106L Autumn 2019</h1>
+          <h2 class="text-right site-subtitle" >Standard C++ Programming</h2>
+        </div>
+      </div>
+
+
+      <div class="container-fluid disp bg-1 text-center">
+        <div class="row">
+
+          <div class="col-sm-4 col-sm-push-8">
+
+
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Assignment Information</h3>
+              </div>
+              <div class="panel-body">
+                <table class="table no-vert-space">
+                  <tbody>
+                    <tr>
+                      <td class="borderless td-sm text-left">Assignments:</td>
+                      <td class="borderless td-sm">Pick any 2 of 3</td>
+                    </tr>
+                    <tr>
+                      <td class="td-sm text-left">Late Days:</td>
+                      <td class="td-sm">2 late days + survey (at most 2 per assignment)</td>
+                    </tr>
+                    <tr>
+                      <td class="td-sm text-left">Submission:</td>
+                      <td class="td-sm"><a href="https://cs198.stanford.edu/paperless" target="_blank">Paperless</a></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+         
+          <div class="col-sm-8 col-sm-pull-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title button-header pull-left" style="padding-top: 8px;">Assignment 3: KDTree</h3>
+                <a href="A3-KDTree.zip"  class="btn btn-default pull-right"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+                <a href="handouts/005_assignment_3_kdtree.pdf" target="_blank" class="btn btn-default pull-right pdf-button">PDF</a>
+                <div class="clearfix"></div>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Due: Thursday, December 5th, 11:59pm<br /><br />
+
+                  This time around, you'll be writing a data structure to efficiently find points that are nearby a target point. This assignment will leverage everything we've learned in object-oriented programming: class design, operator overloading, special member functions (including copy and move constructors and assignment), and template classes. Best of luck!
+
+                    There's no web demo with this one, but the starter files include test cases. If you have any trouble getting started, want any clarification, or spot any typos/errors, please email us! 
+                </p>
+              </div>
+            </div>  
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title button-header pull-left" style="padding-top: 8px;">Assignment 2 (Second Part): WikiRacer</h3>
+                <a href="assignments/02_WikiRacerLinksB.zip"  class="btn btn-default pull-right"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+                <a href="handouts/004_assignment_2_wikiracerB.pdf" target="_blank" class="btn btn-default pull-right pdf-button">PDF</a>
+                <div class="clearfix"></div>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Due: Thursday, November 14th, 11:59pm<br /><br />
+
+                  This is the final part of Assignment 2. The tasks are broken up into small manageable steps and we encourage you start early so that you can clarify any questions with us well before the deadline. The code for this assignment is not very long, but it can be dense in terms of the modern C++ concepts it employs. Ask lots of questions and have fun with it!<br /><br />
+
+                  If you have any trouble getting started, want any clarification, or spot any typos/errors, please email us!
+                </p>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title button-header pull-left" style="padding-top: 8px;">Assignment 2 (First Part): WikiRacer</h3>
+                <a href="assignments/02_WikiRacerLinksA.zip"  class="btn btn-default pull-right"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+                <a href="handouts/003_assignment_2_wikiracerA.pdf" target="_blank" class="btn btn-default pull-right pdf-button">PDF</a>
+                <div class="clearfix"></div>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Due: Saturday, November 2nd, 11:59pm<br /><br />
+
+                  In this assignment you'll be writing a completely novel program that finds link ladders between two Wikipedia pages by using an intelligent algorithm. In the process, you will hopefully develop a strong understanding of several core C++ features such as iterators, algorithms, and containers!<br /><br />
+
+                  This is the first part of a two part assignment and shouldn't take more than 2 hours. There are two tasks to complete in this part and we really urge you to do the first task as soon as possible. The earlier you submit this task, the smoother the second part of this assignment will run.
+                </p>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title button-header pull-left" style="padding-top: 8px;">Assignment 1: GraphViz</h3>
+                <a href="assignments/A1_GraphViz.zip"  class="btn btn-default pull-right"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+                <a href="handouts/002_assignment_1_graphviz.pdf" target="_blank" class="btn btn-default pull-right pdf-button">PDF</a>
+                <div class="clearfix"></div>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Due: Thursday, October 17th, 11:59pm<br /><br />
+
+                  In this assignment you'll be writing a graph visualization algorithm. For full details, click the PDF button above!<br /><br />
+
+                  We also have a <a href="graphviz.html">live web demo!</a> Unfortunately, JavaScript handles numbers a little differently than C++, so the web version behaves slightly differently. The end shape should be correct, though. doodad-3 is a notable exception; if you find others that you think are wrong, let us know! Some examples take a while to finish.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96181283-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+  </html>
